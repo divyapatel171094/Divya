@@ -3,6 +3,7 @@ package Base1;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class driverSetup1 {
     public static WebDriver driver = null;
@@ -16,5 +17,4 @@ public class driverSetup1 {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
     }
-
-}
+    }
